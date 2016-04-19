@@ -77,6 +77,7 @@ matrix:
 # seattle projects, building the current seattle project, and running
 # the seattle unit testing framework, with all tests.
 script:
+  - echo "Trying different branch."
   - $PythonBin --version;
   - cd ./scripts;
   - $PythonBin initialize.py;
